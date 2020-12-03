@@ -23,7 +23,7 @@ const runBuild = name =>
 const watchBuild = name => (eventType, fileName) => runBuild(name);
 
 const options = {
-  recursive: true,
+  recursive: false,
 };
 
 runBuild('all');
